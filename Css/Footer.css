@@ -6,8 +6,31 @@
 body{
     height: 100vh;
     background-color: rgb(116, 116, 116);
+
 }
 
+footer{
+    height: 20%;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Alata', sans-serif;
+}
 
 
 .list-txt{ /*Ce tag permet d'enlever les points de style par defauts dans une liste non ordonné */
@@ -52,9 +75,3 @@ hr{
     border: none;
     border-radius: 5px;
 }
-
-
-
-
-
-
