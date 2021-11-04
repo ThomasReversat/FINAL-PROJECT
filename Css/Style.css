@@ -25,11 +25,11 @@ footer{
 }
 
 .list{
-display: flex;
-justify-content: space-around;
-width: 100%;
-margin-top: 30px;
-font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Alata', sans-serif;
 }
 
 
@@ -56,7 +56,7 @@ font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Alata', sans-serif;
 
 }
 
