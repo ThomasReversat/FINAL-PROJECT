@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(116, 116, 116);
+
+}
+
+footer{
+    height: 20%;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.list-txt{ /*Ce tag permet d'enlever les points de style par defauts dans une liste non ordonné */
+    list-style: none;
+}
+
+
+.list-SN{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 20px;
+    align-items: baseline;
+}
+
+.copyright{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Alata', sans-serif;
+
+}
+
+.txt-copyright{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   width: 100%;
+
+}
+
+hr{
+    height: 3px;
+    width: 70px;
+    background-color: #0C15FF;
+    border: none;
+    border-radius: 5px;
+}
