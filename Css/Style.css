@@ -3,7 +3,6 @@
   padding: 0%;
 }
 
-<<<<<<< HEAD
 body {
   height: 100vh;
   background-color: rgb(116, 116, 116);
@@ -33,17 +32,6 @@ footer {
 .list-txt {
   /*Ce tag permet d'enlever les points de style par defauts dans une liste non ordonné */
   list-style: none;
-=======
-body{
-    height: 100vh;
-    background-color: rgb(116, 116, 116);
-}
-
-
-
-.list-txt{ /*Ce tag permet d'enlever les points de style par defauts dans une liste non ordonné */
-    list-style: none;
->>>>>>> f62213b08b4040a83bbbdf047bf8028ad101f527
 }
 
 .list-SN {
