@@ -1,0 +1,77 @@
+.containerAFB {
+  height: 100%;
+  background-color: #cac5c5;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  height: 100%;
+}
+.card {
+  height: 500px;
+  width: 270px;
+  border-radius: 20px;
+  background-color: gray;
+  margin: 20px;
+}
+
+.cardTop {
+  width: 100%;
+  height: 190px;
+  background-color: green;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cornered {
+  position: relative;
+  top: -40px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 40px solid #282939;
+  border-left: 270px solid transparent;
+}
+.main {
+  position: relative;
+  top: -40px;
+  width: 270px;
+  height: 230px;
+  background-color: #282939;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardBottom {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: -40px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #e79c67;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cardInfoBot {
+  height: 80%;
+  width: 30%;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.pointier {
+  height: 60px;
+  border: 1px dashed #423f3f;
+}
+.prix {
+  height: 30px;
+  position: relative;
+  left: -40px;
+  top: 10px;
+}
