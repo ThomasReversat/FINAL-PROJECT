@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.ContainerAcceuil{
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.Illsutration1{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.ContainerText{
+    height: 100%;
+    width: 50%;
+    background-color: coral;
+}
+
+.NotreLibrairie, .DescriptionLibrairie, .BouttonDiscover{
+    height: 10%;
+    width: 40%;
+    background-color: cornsilk;
+}
