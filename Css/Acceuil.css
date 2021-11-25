@@ -1,0 +1,82 @@
+*{
+    margin: 0.1%;
+    padding: 2%;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.ContainerAcceuil{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.Illustration1{
+height: 100%;
+width: 50%;
+}
+
+.ContainerText{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NotreLibrairie{
+    height: 10%;
+    width: 60%;
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 300%;
+}
+
+.DescriptionLibrairie{
+    height: 40%;
+    width: 60%;
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 130%;
+}
+
+.StyleBouttonDiscover{
+    height: 7%;
+    width: 20%;
+    background-color: white;
+    background-color: #0c15ff;
+    border-radius: 50px;
+    background-size: 30%;
+    color: white;
+    font-family: "Alata", sans-serif;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgLibrary, .ImgBooks, .ImgLibraryTeam{
+    height: 100%;
+    width: 100%;
+}
+
+.Space{
+    height: 15%;
+    width: 100%;
+}
+
+.Boutton{
+    text-decoration: none;
+    color: white;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+}
+
