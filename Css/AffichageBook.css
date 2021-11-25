@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+}
+.containerAFB {
+  height: 100%;
+  width: 100%;
+}
+.containerAFBtop {
+  width: 100%;
+  min-height: 5%;
+  background-color: #c4c4c4;
+}
+.containerAFBbot {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  background-color: #c4c4c4;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ContainerForm {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.AddBook {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: gainsboro;
+  align-items: center;
+  border-radius: 10px;
+}
+.addArea {
+  display: flex;
+  justify-content: center;
+}
+.addBtn {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}

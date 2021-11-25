@@ -3,11 +3,14 @@
     <head>
          <meta charset="utf-8"> <!--Il s’agit de l’encodage des caractères à destination des navigateurs -->
          <meta lang="en">
-         <link rel="stylesheet" href="../Css/Style.css">
+         <link rel="stylesheet" href="../Css/Footer.css">
          <link rel="stylesheet" href="../Css/Header.css">
+         <link rel="stylesheet" href="../Css/AffichageBook.css">
          <link rel="stylesheet" href="../Css/AddBook.css">
          <title>FINAL-PROJECT</title>
     </head>
+    <body>
+        <script src="../Js/AddBook.js"></script>
     <header class="header">
         <div class="containerH">
             <div class="logoH"><img src="../Images/book.png" alt="logo" class="logo-img">
@@ -24,55 +27,127 @@
             </div>
         </div>
     </header>
-    <body>
-        fds
-        <!-- ceci va contenir le body  -->
-    </body>
-    <footer class="container"> <!--création d'une div qui va englober tout le footer -->
-            <div class="list">
-                <div class="service-client">
-                    <h3>Service clients</h3>
-                    <hr> <!--les balises hr sont utilisées pour créer des lignes-->
-                    <br> <!--les balises br sont utilisées pour créer un espace entre deux zones-->
-                    <ul class="list-txt">
-                        <li>FAQ</li>
-                        <li><a href="#"></a>Retours & Remboursement</li> <!--la balise a permet de créer des liens cliquable-->
-                        <li><a href="#"></a>Politique de confidentialité</li>
-                    </ul>
+    <div class="containerAB">
+        <div class="prevu">
+            <div class="card">
+                <div class="cardTop"></div>
+                <div class="cardMid">
+                    <div class="cornered">
+                        <img src="../Images/instagram.png" alt="" class="prix">
+                    </div>
+                    <div class="main">
+                        <div class="titleCard">
+                            <h1 class="author" id="Author">auteur</h1>
+                            <h2 class="TitleBook" id="TitleBook">titre</h2>
+                        </div>
+                        <div class="resumeBook">
+                            <p style="padding: 20px;" id="Resume">résumé</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="cardBottom">
+                    <div class="cardInfoBot">
+                        <p>examplaires</p>
+                    </div>
+                    <hr class="pointier">
+                    <div class="cardInfoBot">
+                        <p id="Date">date</p>
+                    </div>
+                    <hr class="pointier">
+                    <div class="cardInfoBot">
+                        <p>distribution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="addArea">
+            <div class="addBookArea">
+                <div>
+                    <h1>Ajouter un livre :</h1>
+                </div>
+                <div class="gridContainer">
+                    <div class="addtext">
+                        <input type="text" placeholder="titre" id="titreIn" class="recupTxt">
+                        <button onclick=titre() class="recupBtn">add</button>
+                    </div>
+                    <div class="addtext" >
+                        <input type="text" placeholder="date" id="dateIn" class="recupTxt">
+                        <button onclick="date()" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtext">
+                        <input type="text" placeholder="auteur" id="auteurIn" class="recupTxt">
+                        <button onclick="auteur()" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtext">
+                        <input type="text" placeholder="nombre" id="auteur" class="recupTxt">
+                        <button onclick="" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtextR">
+                        <input type="text" placeholder="résumé" id="resumeIn" class="recupTxtR">
+                        <button onclick="resume()" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtext">
+                        <input type="text" placeholder="éditeur" id="auteur" class="recupTxt">
+                        <button onclick="" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtext">
+                        <input type="text" placeholder="prix" id="auteur" class="recupTxt">
+                        <button onclick="" class="recupBtn">add</button>
+                    </div>
+                    <div class="addtextB">fdfdss</div>
+                    <div class="addtext">
+                        <button onclick="recup()" class="recupBtn">test</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="container"> <!--création d'une div qui va englober tout le footer -->
+        <div class="list">
+            <div class="service-client">
+                <h3>Service clients</h3>
+                <hr class="hrFooter"> <!--les balises hr sont utilisées pour créer des lignes-->
+                <br> <!--les balises br sont utilisées pour créer un espace entre deux zones-->
+                <ul class="list-txt">
+                    <li>FAQ</li>
+                    <li><a href="#"></a>Retours & Remboursement</li> <!--la balise a permet de créer des liens cliquable-->
+                    <li><a href="#"></a>Politique de confidentialité</li>
+                </ul>
+            </div>
 
-                <div class="notre boutique">
-                    <h3>Notre boutique</h3>
-                    <hr>
-                    <br>
-                    <ul class="list-txt">
-                        <li><a href="#"></a>Adresse</li>
-                        <li><a href="#"></a>Horaires</li>
-                        <li><a href="#"></a>contact</li>
-                    </ul>
-                </div>
-                <div class="a-propos">
-                    <h3>A propos</h3>
-                    <hr>
-                    <br>
-                    <ul class="list-txt">
-                        <li><a href="#"></a>Notre histoire</li>
-                        <li><a href="#"></a>Notre équipe</li>
-                    </ul>
-                </div>
-                <div class="suivez-nous">
-                    <h3>Suivez nous</h3>
-                    <hr>
-                    <br>
-                    <ul class="list-SN">
-                        <li><img src="../Images/facebook.png" alt="logo-facebook" class="logo"></li>
-                        <li><img src="../Images/instagram.png" alt="logo-instagram" class="logo"></li>
-                        <li><img src="../Images/linkedin.png" alt="logo-linkedin" class="logo"></li>
-                    </ul>
-                </div>
+            <div class="notre boutique">
+                <h3>Notre boutique</h3>
+                <hr class="hrFooter">
+                <br>
+                <ul class="list-txt">
+                    <li><a href="#"></a>Adresse</li>
+                    <li><a href="#"></a>Horaires</li>
+                    <li><a href="#"></a>contact</li>
+                </ul>
             </div>
-            <div class="copyright">
-                <p class="txt-copyright">© 2021 - E-BOOKS COMPANY - TOUS DROITS RESERVES </p>
+            <div class="a-propos">
+                <h3>A propos</h3>
+                <hr class="hrFooter">
+                <br>
+                <ul class="list-txt">
+                    <li><a href="#"></a>Notre histoire</li>
+                    <li><a href="#"></a>Notre équipe</li>
+                </ul>
             </div>
-    </footer>
+            <div class="suivez-nous">
+                <h3>Suivez nous</h3>
+                <hr class="hrFooter">
+                <br>
+                <ul class="list-SN">
+                    <li><img src="../Images/facebook.png" alt="logo-facebook" class="logo"></li>
+                    <li><img src="../Images/instagram.png" alt="logo-instagram" class="logo"></li>
+                    <li><img src="../Images/linkedin.png" alt="logo-linkedin" class="logo"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="txt-copyright">© 2021 - E-BOOKS COMPANY - TOUS DROITS RESERVES </p>
+        </div>
+</footer>
 </html>
