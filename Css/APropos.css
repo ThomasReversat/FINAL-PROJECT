@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+}
+
+.ContainerImg{
+    height: 20%;
+    width: 100%;
+}
+
+.ImgHead{
+    height: 100%;
+    width: 100%;
+}
+
+.ContainerMap{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Map{
+    width: 50%;
+    height: 80%;
+}
+
+.ImgMap{
+    width: 100%;
+    height: 100%;
+    box-shadow: 4px 4px 9px black;
+}
+
+.TextMap{
+    width: 30%;
+    height: 50%;
+}
+
+.TextMapDescription{
+    font-family: 'Alata', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    height: 100%;
+    width: 90%;
+
+}
+
+.SeparationContainer{
+    height: 3px;
+    width: 70%;
+    background-color: #0C15FF;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.ContainerProfils{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Profil1{
+    width: 30%;
+    height: 90%;
+    background-color: coral;
+}
+
+.Profil2{
+    width: 30%;
+    height: 90%;
+    background-color: coral;
+}
+
+
